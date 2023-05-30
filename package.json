@@ -1,0 +1,33 @@
+{
+  "name": "quiz_api",
+  "version": "1.0.0",
+  "description": "api for quiz app",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "rm -rf build/ && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaishnav Ghenge, Umesh Bagade",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/shortid": "^0.0.29",
+    "@types/uuid": "^9.0.1",
+    "typescript": "^4.9.5"
+  }
+}
